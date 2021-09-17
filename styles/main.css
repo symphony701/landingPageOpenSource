@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --main-color: #7E0B9F;
+}
+
+.home {
+    width: 100%;
+    /height: 100vh;/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav {
+    background-color: var(--main-color) !important;
+}
+
+nav h2 {
+    font-size: 108%;
+    font-weight: bold;
+    margin: 0 !important;
+    margin-top: 20px !important;
+}
+
+.nav-boton {
+    background: white !important;
+    width: 9pc;
+    height: 2.7pc;
+    border-radius: 16px;
+    font-weight: 700;
+    border: 1px solid transparent;
+    color: var(--main-color);
+    background: white !important;
+    color: purple !important;
+    border-color: white;
+    border-radius: 23px;
+}
+
+@font-face {
+    font-family: HarlowSolidItalic;
+    src: url(./../fonts/HarlowSolidItalic.woff) format('woff');
+}
+
+.EasyJobs {
+    color: white;
+    margin: 0px;
+    font-family: HarlowSolidItalic;
+    font-size: 2.2rem;
+}
+
+.nav-options {
+    width: 61%;
+    height: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.white-line {
+    width: 1px;
+    background-color: white;
+    height: 40px;
+    margin-top: 5px;
+}
+
+.body {
+    width: 100%;
+    height: 93vh;
+    background-image: url(../images/background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.center-body {
+    height: 89%;
+    background: white;
+    width: 91%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.job-search {
+    background: white;
+    border: 1px solid rgb(163, 161, 161);
+    width: 53% !important;
+    border-radius: 43px;
+    height: 13%;
+    align-items: center;
+    margin: 60px 0px 0px 0px;
+}
+
+.input-field {
+    color: var(--main-color);
+}
+
+.job-search .btn {
+    border-radius: 14px !important;
+}
+
+.job-search label {
+    color: var(--main-color) !important;
+}
+
+.job-options {
+    background: transparent;
+    width: 100%;
+    height: 87%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.options-buttons {
+    width: 44%;
+    height: 80%;
+    background-color: transparent;
+    display: grid;
+    grid-template-rows: 0.5fr 1fr 1fr;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.options-buttons h2 {
+    grid-column: 1/12;
+    font-size: 2.5rem;
+    color: #7e027e;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+.options-buttons .btn {
+    height: 55px !important;
+    width: 181px !important;
+    padding-top: 10px !important;
+    border-radius: 15px !important;
+}
+
+.btn-1 {
+    font-size: 12px !important;
+    grid-row: 2;
+    grid-column: 1/4;
+    font-weight: bold !important;
+}
+
+.btn-2 {
+    font-size: 14px !important;
+    grid-row: 2;
+    grid-column: 5/8;
+    font-weight: bold !important;
+}
+
+.btn-3 {
+    font-size: 14px !important;
+    grid-row: 2;
+    grid-column: 9/12;
+    font-weight: bold !important;
+}
+
+.btn-4 {
+    grid-row: 3;
+    grid-column: 3/6;
+    font-size: 14px !important;
+    font-weight: bold !important;
+}
+
+.btn-5 {
+    grid-row: 3;
+    grid-column: 7/10;
+    font-size: 12px !important;
+    font-weight: bold !important;
+}
+
+.btn {
+    background-color: var(--main-color) !important;
+    color: white !important;
+}
