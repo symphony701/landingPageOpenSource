@@ -505,3 +505,35 @@ footer {
         margin-bottom: 10px;
     }
 }
+@media (max-width: 422px) {
+    .left-side img {
+        width: 23em;
+        height: 28em;
+    }
+    .job-search .input-field {
+        width: 20em !important;
+    }
+    .left-side .container-input {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .four-section img {
+        width: 23em;
+        height: 25em;
+    }
+}
+
+.responsive-bar {
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+    background: purple;
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    top: 56px;
+    height: 95vh;
+    justify-content: space-evenly;
+}
