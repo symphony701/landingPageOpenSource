@@ -187,3 +187,64 @@ nav h2 {
     background-color: var(--main-color) !important;
     color: white !important;
 }
+/SECOND SECTION CSS/
+
+.second-section {
+    width: 95%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.left-side {
+    width: 57%;
+    height: 100%;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: space-evenly;
+}
+
+.left-side h2 {
+    font-size: 3.5rem;
+    color: var(--main-color);
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    text-align: initial;
+}
+
+.left-side .input-field {
+    width: 63% !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-side .input-field input {
+    border-bottom: 1px solid var(--main-color) !important;
+}
+
+.left-side .input-field label {
+    color: var(--main-color);
+}
+
+.container-button {
+    font-size: 14px !important;
+    color: white !important;
+    font-weight: bold !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.container-button button {
+    background-color: var(--main-color);
+    width: 131px !important;
+    height: 47px;
+    border-radius: 16px;
+    font-weight: bold !important;
+}
